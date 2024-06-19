@@ -38,7 +38,7 @@ ui <- dashboardPage(
                 carousel(width = 12,
                          id = "mycarousel",
                          carouselItem(
-                           tags$img(src = "https://github.com/SFikri-Project/sehatirakyatdashboard.github.io/raw/main/home.jpg")
+                           tags$img(src = "https://github.com/scrfikrprj27/Tasks/raw/main/home.jpg")
                          ))
               
               )
