@@ -23,8 +23,6 @@ ui <- dashboardPage(
     sidebarMenu(
       menuItem("Beranda", tabName = "beranda", icon = icon("house")),
       menuItem("Dashboard", tabName = "dashboard", icon = icon("table-columns"),
-               menuSubItem("Visualisasi", tabName = "visualisasi"),
-               menuSubItem("Pemodelan", tabName = "pemodelan")),
       menuItem("Database", tabName = "database", icon = icon("database"))
     )
   ),
